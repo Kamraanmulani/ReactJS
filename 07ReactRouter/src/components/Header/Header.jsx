@@ -1,5 +1,8 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
+// Link is used to navigate to a different page and it is used against a tag as a tag refresh the page 
+// which is not the functionality we want in a single page application
+// NavLink is used to add a class to the active link
 
 export default function Header() {
   return (
